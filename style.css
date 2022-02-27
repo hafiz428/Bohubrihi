@@ -1,0 +1,111 @@
+.navbar{
+  max-width: 500px;
+  border: 15px solid green;
+  background-color: lightgray;
+  padding: 15px;
+  margin: auto;
+  border-radius: 5px;
+  text-align: justify;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.hafiz{
+  font-size: 20px;
+  border: 3px solid black;
+  display: inline-block;
+  margin-left: 50px;
+  margin-top: 40px;
+  padding: 10px 10px;
+  text-shadow: 3px 3px blue;
+  box-shadow: dimgray 10px 5px 5px;
+  border-radius: 5px;
+}
+#rahman{
+  border-left: 5px solid;
+  border-image: linear-gradient(180deg, lightsalmon, tomato);
+  border-image-slice: 1;
+}
+#nayeem{
+  display: block;
+  width: 150px;
+  margin: auto;
+  background-color: blue;
+  padding: 10px 10px;
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+}
+#nayeem:hover{
+  background-color: maroon;
+  color: darkgreen;
+}
+.list{
+  width: 50%;
+  margin: auto;
+  background-color: aqua;
+  padding: 50px;
+  border-radius: 15px;
+  margin-top: 100px;
+}
+.list ol li{
+  padding: 10px;
+  font-size: 50px;
+  color: dimgray;
+  background-color: lightsalmon;
+  border-radius: 15px;
+}
+.table{
+  padding: 200px;
+  background-color: burlywood;
+  margin-top: 30px;
+}
+.table-contin{
+  width: 50%;
+  background-color: lawngreen;
+  margin: auto;
+  padding: 50px;
+}
+.table-contin table{
+  border: 2px solid black;
+  border-collapse: collapse;
+}
+.table-contin table th{
+  border: 2px solid black;
+  padding: 15px;
+  background-color: midnightblue;
+  color: white;
+}
+.table-contin table td{
+  border: 2px solid black;
+  padding: 10px;
+  background-color: aliceblue;
+  color: black;
+}
+.my-display{
+  padding: 25px;
+  border: 7px solid red;
+  border-radius: 5px;
+  background-color: black;
+  padding: 0px 15px;
+  position: sticky;
+  top: 0;
+}
+.zoya{
+  font-size: 50px;
+  font-weight: 700;
+  text-align: center;
+  color: chartreuse;
+  background-image: linear-gradient(180deg, lightsalmon, tomato);
+}
+.float p{
+  font-weight: 700;
+  font-size: 40px;
+  border: 5px solid black;
+  overflow: auto;
+  border-radius: 5px;
+  text-align: center;
+}
+.float img{
+  width: 300px;
+  height: 300px;
+  float: left;
+}
